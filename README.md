@@ -21,6 +21,12 @@ python BSONTestClient.py --bson --tcp
 
 You can also replace the parameter --tcp with --websocket to use a websocket connection.
 
+## Loop test of websocket
+```
+python BSONTestClientLoop.py --json --websocket
+```
+
+
 ## Relevant notes:
 - Tested with Python 2.7
 - The client assumes that your rosbridge server is running on localhost:9090
