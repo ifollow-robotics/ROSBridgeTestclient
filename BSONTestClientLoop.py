@@ -201,6 +201,8 @@ elif COMMUNICATION_METHOD == WEBSOCKET:
         # Close the file
         myfile.close()
         i += 1
+
+
 else:
     print("Invalid COMMUNICATION_METHOD")
     quit(1)
