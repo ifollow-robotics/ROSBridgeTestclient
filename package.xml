@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ROSBridgeTestclient</name>
+  <version>0.5.0</version>
+  <description>Converts between Python dictionaries and JSON to rospy messages.</description>
+  <maintainer email="martin.guenther@dfki.de">Martin Günther</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>roslib</depend>
+  <depend>rospy_message_converter</depend>
+</package>
