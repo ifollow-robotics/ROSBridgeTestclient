@@ -23,18 +23,18 @@ now=$(date +"%T")
 if [ -z "$DIFFERENCE1" ]
 then
         echo "AP1:" $now >> log_ap.txt
-        echo "\t" $WIFI_QUALITY >> log_ap.txt
+        echo "   " $WIFI_QUALITY >> log_ap.txt
 elif [ -z "$DIFFERENCE2" ]
 then
         echo "AP2:" $now >> log_ap.txt
-        echo "\t" $WIFI_QUALITY >> log_ap.txt
+        echo "   " $WIFI_QUALITY >> log_ap.txt
 elif [ -z "$DIFFERENCE3" ]
 then
         echo "AP3:" $now >> log_ap.txt
-        echo "\t" $WIFI_QUALITY >> log_ap.txt
+        echo "   " $WIFI_QUALITY >> log_ap.txt
 else
         echo "AP4:" $now >> log_ap.txt
-        echo "\t" $WIFI_QUALITY >> log_ap.txt
+        echo "   " $WIFI_QUALITY >> log_ap.txt
 fi
 sleep 1;
 
