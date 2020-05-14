@@ -5,6 +5,9 @@ AP1="18:e8:29:c6:0c:0f"
 AP2="18:e8:29:10:b0:8b"
 AP3="18:e8:29:c6:0f:3f"
 AP4="74:83:c2:96:ee:27"
+echo "-----------------------------------------"  >> log_ap.txt
+echo "-----------------------------------------"  >> log_ap.txt
+echo "-----------------------------------------"  >> log_ap.txt
 while [ 1 ];
 do CONNECTED_AP=$(iwconfig $INTERFACE |grep "Access Point" | cut -d ':' -f 4-9 | cut -c 2-);
 
